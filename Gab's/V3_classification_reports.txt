@@ -1,0 +1,154 @@
+Classification Report for Model 1: Basic CNN:
+                  precision    recall  f1-score   support
+
+    MildDemented       0.28      0.26      0.27      1863
+ModerateDemented       0.19      0.19      0.19      1282
+     NonDemented       0.29      0.32      0.30      1907
+VeryMildDemented       0.25      0.26      0.26      1732
+
+        accuracy                           0.26      6784
+       macro avg       0.25      0.25      0.25      6784
+    weighted avg       0.26      0.26      0.26      6784
+
+Overall Accuracy for Model 1: Basic CNN: 0.2611
+--------------------------------------------------------------------------------
+Classification Report for Model 2: CNN + L2:
+                  precision    recall  f1-score   support
+
+    MildDemented       0.27      0.30      0.29      1871
+ModerateDemented       0.19      0.18      0.19      1280
+     NonDemented       0.29      0.31      0.30      1899
+VeryMildDemented       0.25      0.22      0.23      1734
+
+        accuracy                           0.26      6784
+       macro avg       0.25      0.25      0.25      6784
+    weighted avg       0.26      0.26      0.26      6784
+
+Overall Accuracy for Model 2: CNN + L2: 0.2588
+--------------------------------------------------------------------------------
+Classification Report for Model 3: CNN + BatchNormalization:
+                  precision    recall  f1-score   support
+
+    MildDemented       0.27      0.28      0.28      1860
+ModerateDemented       0.20      0.22      0.21      1293
+     NonDemented       0.27      0.23      0.25      1907
+VeryMildDemented       0.26      0.27      0.27      1724
+
+        accuracy                           0.25      6784
+       macro avg       0.25      0.25      0.25      6784
+    weighted avg       0.25      0.25      0.25      6784
+
+Overall Accuracy for Model 3: CNN + BatchNormalization: 0.2527
+--------------------------------------------------------------------------------
+Classification Report for Model 4: CNN + L2 + BatchNormalization:
+                  precision    recall  f1-score   support
+
+    MildDemented       0.27      0.35      0.31      1860
+ModerateDemented       0.18      0.17      0.17      1287
+     NonDemented       0.28      0.25      0.27      1901
+VeryMildDemented       0.25      0.21      0.23      1736
+
+        accuracy                           0.25      6784
+       macro avg       0.25      0.25      0.24      6784
+    weighted avg       0.25      0.25      0.25      6784
+
+Overall Accuracy for Model 4: CNN + L2 + BatchNormalization: 0.2527
+--------------------------------------------------------------------------------
+Classification Report for Model 5: CNN + Dropout:
+                  precision    recall  f1-score   support
+
+    MildDemented       0.27      0.34      0.30      1863
+ModerateDemented       0.16      0.15      0.15      1285
+     NonDemented       0.29      0.21      0.24      1900
+VeryMildDemented       0.26      0.28      0.27      1736
+
+        accuracy                           0.25      6784
+       macro avg       0.24      0.24      0.24      6784
+    weighted avg       0.25      0.25      0.25      6784
+
+Overall Accuracy for Model 5: CNN + Dropout: 0.2499
+--------------------------------------------------------------------------------
+Classification Report for Model 6: CNN + EarlyStopping:
+                  precision    recall  f1-score   support
+
+    MildDemented       0.28      0.31      0.30      1870
+ModerateDemented       0.20      0.24      0.22      1292
+     NonDemented       0.28      0.15      0.20      1893
+VeryMildDemented       0.28      0.34      0.31      1729
+
+        accuracy                           0.26      6784
+       macro avg       0.26      0.26      0.26      6784
+    weighted avg       0.27      0.26      0.26      6784
+
+Overall Accuracy for Model 6: CNN + EarlyStopping: 0.2633
+--------------------------------------------------------------------------------
+Classification Report for Model 7: CNN + ReduceLROnPlateau:
+                  precision    recall  f1-score   support
+
+    MildDemented       0.28      0.27      0.27      1869
+ModerateDemented       0.20      0.20      0.20      1290
+     NonDemented       0.28      0.28      0.28      1896
+VeryMildDemented       0.26      0.27      0.26      1729
+
+        accuracy                           0.26      6784
+       macro avg       0.25      0.25      0.25      6784
+    weighted avg       0.26      0.26      0.26      6784
+
+Overall Accuracy for Model 7: CNN + ReduceLROnPlateau: 0.2581
+--------------------------------------------------------------------------------
+Classification Report for Model 9: Custom CNN:
+                  precision    recall  f1-score   support
+
+    MildDemented       0.99      0.98      0.99       896
+ModerateDemented       1.00      1.00      1.00        64
+     NonDemented       0.99      0.99      0.99      3200
+VeryMildDemented       0.98      0.98      0.98      2240
+
+        accuracy                           0.99      6400
+       macro avg       0.99      0.99      0.99      6400
+    weighted avg       0.99      0.99      0.99      6400
+
+Overall Accuracy for Model 9: Custom CNN: 0.9858
+--------------------------------------------------------------------------------
+Classification Report for Model 10: CNN + L2 + EarlyStopping + BatchNormalization:
+                  precision    recall  f1-score   support
+
+    MildDemented       0.28      0.24      0.25      1867
+ModerateDemented       0.18      0.17      0.17      1282
+     NonDemented       0.28      0.55      0.37      1911
+VeryMildDemented       0.27      0.02      0.04      1724
+
+        accuracy                           0.26      6784
+       macro avg       0.25      0.24      0.21      6784
+    weighted avg       0.26      0.26      0.22      6784
+
+Overall Accuracy for Model 10: CNN + L2 + EarlyStopping + BatchNormalization: 0.2577
+--------------------------------------------------------------------------------
+Classification Report for Model 11: ResNet:
+                  precision    recall  f1-score   support
+
+    MildDemented       0.29      0.35      0.32      1861
+ModerateDemented       0.20      0.23      0.22      1283
+     NonDemented       0.28      0.27      0.27      1907
+VeryMildDemented       0.27      0.20      0.23      1733
+
+        accuracy                           0.27      6784
+       macro avg       0.26      0.26      0.26      6784
+    weighted avg       0.27      0.27      0.26      6784
+
+Overall Accuracy for Model 11: ResNet: 0.2667
+--------------------------------------------------------------------------------
+Classification Report for Model 8: SVM with VGG16:
+                  precision    recall  f1-score   support
+
+    MildDemented       0.77      0.96      0.85       896
+ModerateDemented       0.97      1.00      0.98        64
+     NonDemented       0.91      0.89      0.90      3200
+VeryMildDemented       0.88      0.83      0.85      2240
+
+        accuracy                           0.88      6400
+       macro avg       0.88      0.92      0.90      6400
+    weighted avg       0.88      0.88      0.88      6400
+
+Overall Accuracy for Model 8: SVM with VGG16: 0.8778
+--------------------------------------------------------------------------------
